@@ -1,5 +1,5 @@
 import { NavigationContainer } from '@react-navigation/native';
-import { StatusBar, StyleSheet, Text, View } from 'react-native';
+import { StatusBar } from 'react-native';
 import IndexComponent from './01_screens/01_StackNavigation/01_IndexComponent';
 
 export default function App() {

@@ -4,6 +4,7 @@ import StackView from "./03_StackView";
 import { Button } from "react-native";
 import StackParams, { TitleView } from "./05_StackParams";
 import StackProps from "./04_StackProps";
+import NestingNavigation from "../02_TapNavigation/00.NestingNavigation";
 
 const Stack = createNativeStackNavigator();
 
@@ -68,6 +69,12 @@ const IndexComponent = ()=>{
             component={StackParams}
             />
            
+            <Stack.Screen
+              name="NestingNavigation"
+              component={NestingNavigation}
+              // options={{headerShown:false}}
+            />
+
         </Stack.Navigator>
     )
 
